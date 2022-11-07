@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>3rd-class</title>
+    <style>
+        .abc{
+    padding: 20px;
+}
+.def .abc{
+    padding-bottom: 20px;
+}
+.abc label{
+    display: block;
+}
+.abc input[type="text"], .def textarea{
+    padding: 8px;
+    width: 100%;
+}
+.btn{
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    width: 100px;
+    background-color: skyblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: greenyellow;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: blue;
+    color: lightblue;
+}
+.btn:active{
+    background-color: aqua;
+    color: blanchedalmond;
+}
+.xyz{
+    float: left;      /* By using this we devide screen */
+    width: 50%;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+    </style>
+</head>
+<body>
+    <form class="abc">
+          <div class="def">
+            <label>Name</label>
+            <input type="text">
+          </div>
+          <div class="def">
+            <label>Email</label>
+            <input type="text">
+          </div>
+          <div class="def">
+            <label>Message</label>
+            <textarea name="Message"></textarea>
+          </div>
+          <input type="submit" value="submit" class="btn">
+    </form>
+    <div class="xyz">
+        <h2>Raj</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam repellat fugit non voluptatem! Fugit delectus saepe esse dolorem impedit earum rem est eum. Ipsum quaerat natus corrupti, voluptas illo aliquid? Voluptate quaerat autem et omnis placeat nobis repellat necessitatibus dolor laborum aliquam, magnam tenetur libero ducimus, laboriosam tempora nulla vel. Molestiae voluptas natus quasi, fugiat ipsam esse, error magni, adipisci nihil voluptate quaerat hic autem repellat! Eveniet veritatis, rerum repellendus obcaecati ipsum deleniti? Nisi, ratione eveniet asperiores veritatis facilis suscipit nemo illum maiores quidem reprehenderit totam recusandae quasi consequatur dicta dolore, tempore alias harum beatae eligendi! Inventore, fuga omnis.</p>
+        </div>
+        <div class="xyz">
+          <h2>Lorem</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam repellat fugit non voluptatem! Fugit delectus saepe esse dolorem impedit earum rem est eum. Ipsum quaerat natus corrupti, voluptas illo aliquid? Voluptate quaerat autem et omnis placeat nobis repellat necessitatibus dolor laborum aliquam, magnam tenetur libero ducimus, laboriosam tempora nulla vel. Molestiae voluptas natus quasi, fugiat ipsam esse, error magni, adipisci nihil voluptate quaerat hic autem repellat! Eveniet veritatis, rerum repellendus obcaecati ipsum deleniti? Nisi, ratione eveniet asperiores veritatis facilis suscipit nemo illum maiores quidem reprehenderit totam recusandae quasi consequatur dicta dolore, tempore alias harum beatae eligendi! Inventore, fuga omnis.</p>
+        </div>
+</body>
+</html>
