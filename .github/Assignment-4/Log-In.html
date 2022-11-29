@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body{
+			background-color: navy;
+		}
+		fieldset
+		{
+			width: 500px;
+			text-align: center;
+			background-color: lightsalmon;
+		}
+		legend
+		{
+			padding: 20px;
+			background-color: rgba(9, 246, 84, 0.703);
+			color: white;
+			border: 5px ridge rgb(189, 239, 7);
+			border-radius: 10px 30px;
+			font-size: 50px;
+		}
+		footer{
+        padding: 1px;
+        margin-top: 209px;
+        color: aliceblue;
+        background-color: orangered;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        font-size: 20px;
+       }
+	</style>
+</head>
+<body>
+<div align="center">
+	<fieldset>
+		<legend>Registration Form</legend>
+		<form>
+			<table>
+				<tr>
+					<td><label>First name:</label></td>
+					<td><input type="text" placeholder="Enter Your First Name"></td>
+				</tr>
+				<tr>
+					<td><label>Last name:</label></td>
+					<td><input type="text" placeholder="Enter Your Last Name"></td>
+				</tr>
+				<tr>
+					<td><label>Email-id:</label></td>
+					<td><input type="Email" placeholder="Enter Your Email-id"></td>
+				</tr>
+				<tr>
+					<td><label>password:</label></td>
+					<td><input type="text" pattern=".{8,}"></td>
+				</tr>
+				<tr>
+					<td><label>Mob-no:</label></td>
+					<td><input type="tel" minlength="10" pattern="[0-9]{10}" placeholder="Enter Your Mobile Number"></td>
+				</tr>
+				<tr>
+					<td><label>gender :</label></td>
+					<td><input type="radio" name="abc">Male<input type="radio" name="abc">Female</td>
+				</tr>
+				<tr><td><label>Country:</label></td>
+                    <td><select>
+                    	<option>Select Your Country Name</option>
+                    	<option>India</option>
+                    </select></td>
+				</tr>
+				<tr>
+					<td><label>Type :</label></td>
+					<td><input type="radio" name="def">Batsman<input type="radio" name="def">Bowler<input type="radio" name="def">All-Rounder</td>
+				<tr>
+					<td><label>Date of Birth:</label></td>
+					<td><input type="date" name=""></td>
+				</tr>
+				<tr>
+					<td><label>Address:</label></td>
+					<td><textarea cols="30" rows="5" placeholder="Enter Your Address"></textarea></td>
+				</tr>
+				<tr>
+					<td><button><a href="Submit.html">Submit</a></button></td>
+					<td><button>Reset</button></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+	<footer>
+        <p>BCCI OFFICIAL @copyright</p>
+    </footer>
+</body>
+</html>

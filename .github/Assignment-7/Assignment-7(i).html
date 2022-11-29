@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Convertor</title>
+    <style>
+        #raj{
+            margin-top: 150px;
+        }
+        body {
+            background-color: white;
+            /* color: aliceblue; */
+        }
+
+        .top-middle {
+            text-align: center;
+            border: 8px ridge rgb(10, 247, 152);
+            width: 1450px;
+            height: 430px;
+            padding-top: 20px;
+            background-color: rgb(136, 201, 231);
+            box-shadow: 0px 0px 50px blue;
+        }
+
+        .container-1 {
+            position: absolute;
+            border: 8px ridge #f98006;
+            width: 430px;
+            margin-top: -360px;
+            margin-left: 27px;
+            height: 290px;
+            background-color: #f0c69d;
+        }
+
+        .container-1 .head {
+            text-align: center;
+        }
+
+        .container-1 form {
+            padding-left: 20px;
+        }
+
+        .container-2 {
+            position: absolute;
+            border: 8px ridge #FFFFFF;
+            width: 430px;
+            margin-top: -360px;
+            margin-left: 505px;
+            height: 290px;
+            color: black;
+            background-color:#FFFFFF;
+        }
+
+        .container-2 .head-1 {
+            text-align: center;
+        }
+
+        .container-2 form {
+            padding-left: 20px;
+        }
+
+        .container-3 {
+            position: absolute;
+            border: 8px ridge #18f803;
+            width: 430px;
+            margin-top: -360px;
+            margin-left: 985px;
+            height: 290px;
+            background-color:#4abb3f;
+        }
+
+        .container-3 .head-2 {
+            text-align: center;
+        }
+
+        .container-3 form {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="raj">
+        <h1 class="top-middle">Convertor Apk</h1>
+        <div class="container-1">
+            <form>
+                <h2 class="head">1.Weight Convert:-</h2>
+                <div class="form">
+                    <h3>Weight(kgs) :-</h3>
+                    <input type="number" id="kgsInput" class="form-1" placeholder="Enter weight In Kg">
+                </div>
+
+                <div class="abc">
+                    <div class="def">
+                        <h3>Pounds(lbs) :-</h3>
+                        <div id="lbsInput"></div>
+                    </div>
+                </div>
+                <div class="abc">
+                    <div class="def">
+                        <h3>Grams(gms) :-</h3>
+                        <div id="gramsInput"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="container-2">
+            <form>
+                <h2 class="head-1">2.Height Measurments:-</h2>
+                <div class="form-1">
+                    <h3>height(feets) :-</h3>
+                    <input type="number" id="feetsInput" class="form-1" placeholder="Enter height In ft">
+                </div>
+                <div class="abc">
+                    <div class="def">
+                        <h3>Inches(inch):-</h3>
+                        <div id="inchesInput"></div>
+                    </div>
+                </div>
+                <div class="abc-1">
+                    <div class="def-1">
+                        <h3>Centimeters(cms):-</h3>
+                        <div id="cmsInput"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="container-3">
+            <form>
+                <h2 class="head-2">3.Convert Temperature:-</h2>
+                <div class="form-2">
+                    <h3>Temp in Celcious(c) :-</h3>
+                    <input type="number" id="celsInput" class="form-1" placeholder="Enter Temperature In c">
+                </div>
+                <div class="abc-2">
+                    <div class="def-2">
+                        <h3>Temp in Fahrenheit(F):-</h3>
+                        <div id="fahsInput"></div>
+                    </div>
+                </div>
+                <div class="abc-1">
+                    <div class="def-1">
+                        <h3>Temp in Kelvin(k):-</h3>
+                        <div id="kelsInput"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./project-7.js"></script>
+</body>
+
+</html>

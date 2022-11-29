@@ -1,0 +1,48 @@
+#axar
+{  
+    box-shadow: 0px 0px 30px blue;
+    width:280px;
+    height: 400px;
+    margin:-400px 0px 0px 620px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+padding-top: 0px;
+}
+#axar>img
+{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px 20px 0px 0px;
+    transition: all 1s linear 0s;
+}
+#axar:hover>img
+{
+    transform: translateY(-110px);
+}
+ol 
+{
+ list-style-type: none;
+}
+ol>li 
+{
+ text-align: center;
+ border: 2px solid blue;
+ width: 200px;
+ margin-bottom: 5px;
+}
+#axar>#raj
+{
+ position: absolute;
+ top: 400px;
+ left: 0px;
+ right: 0px;
+ background-color: rgb(184, 185, 185);
+ height: 140px;
+ border-radius: 0px 0px 20px 20px;
+ transition: all 1s linear 0s;
+}
+#axar:hover>#raj
+{
+    transform: translateY(-110px);
+}
